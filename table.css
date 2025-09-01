@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://wallpapers.com/images/featured/4k-marvel-awrqh8lcgyk3crjc.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.title-cell {
+  text-align: center;
+  font-size: 100px;
+  padding-bottom: 20px;
+  color: rgb(255, 0, 0);
+}
+.main-table {
+  margin: 150px auto;
+  border-spacing: 20px;
+  max-width: 900px;
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+.main-table td {
+  padding: 0;
+}
+
+.main-table img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.two-image {
+  display: flex;
+  gap: 10px;
+  justify-content: center; 
+  align-items: center;
+}
+
+.two-image img {
+  width: 200px auto; 
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
